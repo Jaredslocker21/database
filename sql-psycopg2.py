@@ -22,9 +22,9 @@ cursor = connection.cursor()
 
 #cursor.execute('SELECT * FROM "Album" WHERE "ArtistId" = %s', ["252"])
 
-cursor.execute('SELECT * FROM "Track" WHERE "Composer" = %s', ["test"])
+#cursor.execute('SELECT * FROM "Track" WHERE "Composer" = %s', ["test"])
 
-results = cursor.fetchall()
+results = cursor.fetchall(#
 
 #results = cursor.fetchone()
 
